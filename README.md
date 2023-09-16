@@ -31,10 +31,10 @@ A simple video call web application which allows users to video chat. Right now 
 1. Clone the repository: `git clone https://github.com/AdoshSingh/meet_clone_pub.git` run this in terminal.
 2. Install the dependencies: `npm install` run this in client as well as in the server folder, it will install the dependencies required in the project.
 3. There are some env variables also like:
-   `MONGODB_CONNECTION_URL`: put your local mongo db connection uri,
-   `SECRET_KEY`: put anything it is used for generating token for authentication,
-   `EMAIL_ADDRESS`: used to send email to the user from this email about instruction about how to reset password if you forgot it,
-   `EMAIL_PASSWORD`: this is app password for the above email address, just google it how to obtain it.
+   - `MONGODB_CONNECTION_URL`: put your local mongo db connection uri,
+   - `SECRET_KEY`: put anything it is used for generating token for authentication,
+   - `EMAIL_ADDRESS`: used to send email to the user from this email about instruction about how to reset password if you forgot it,
+   - `EMAIL_PASSWORD`: this is app password for the above email address, just google it how to obtain it.
 4. Run the project: first run `nodemon index` in the `/server` and then run `npm run start` in the `/client`.
 
 ## Usage
